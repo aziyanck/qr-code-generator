@@ -53,8 +53,8 @@ input[type="text"] {
     font-weight: 600;
 }
 
-#generate {
 
+a {
     background: #03375c;
     color: white;
     border: none;
@@ -64,6 +64,13 @@ input[type="text"] {
     cursor: pointer;
     transition: all 0.3s ease;
     margin-right: 5px;
+    align-items: center;
+    text-decoration: none;
+    align-content: center;
+}
+a:hover{
+    background: #253e74;
+    scale: 1.02;
 }
 
 button:hover {
@@ -71,7 +78,7 @@ button:hover {
     scale: 1.02;
 }
 
-button {
+.download {
     background: #03375c;
     color: white;
     border: none;
@@ -81,4 +88,22 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
     margin-right: 5px;
+} 
+
+
+#qr {
+    width: 300px;
+    height: 300px;
+    
+    border: #03375c solid 3px;
+    
+    margin: 20px;
+    align-content: center;
+    justify-items: center;
+}
+
+#qr img {
+    width: 95%;
+    height: auto;
+    
 }
