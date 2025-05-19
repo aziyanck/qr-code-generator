@@ -146,16 +146,16 @@ button:hover {
         border: #03375c solid 3px;
         display: flex;
         margin: 20px;
-        align-content: center;
-        justify-items: center;
+        justify-content: center;
+        
     }
 
     #qr img {
-
+        
+        align-self: center;
         width: 280px;
         height: 280px;
-        margin: 10px;
-
+        margin: 0;
 
     }
 }
