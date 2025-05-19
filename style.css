@@ -24,7 +24,7 @@ h1 {
 }
 
 .controls {
-    width: 50%;
+    width: 50vb;
     height: 50px;
     background-color: #ffffff;
     padding: 15px 0px 15px 10px;
@@ -32,11 +32,11 @@ h1 {
     border-radius: 20px;
     display: flex;
     gap: 15px;
-
+    padding-right: 15px;
 }
 
 input {
-    display: flex;
+    
     background: #03375c;
     overflow: hidden;
     width: 350px;
@@ -107,7 +107,7 @@ button:hover {
 #qr img {
     align-self: center;
     width: 280px;
-    
+
 
 }
 
@@ -130,7 +130,7 @@ button:hover {
 
         color: white;
         border: none;
-        padding:  20px;
+        padding: 20px;
         border-radius: 15px;
         font-size: 16px;
         cursor: pointer;
@@ -138,6 +138,6 @@ button:hover {
         margin-right: 5px;
         text-decoration: none;
         text-align: center;
-        
+
     }
 }
