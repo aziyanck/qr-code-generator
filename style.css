@@ -27,12 +27,12 @@ h1 {
     width: 50vb;
     height: 50px;
     background-color: #ffffff;
-    padding: 15px 0px 15px 10px;
+    padding: 15px 15px 15px 10px;
     border: #03375c solid 3px;
     border-radius: 20px;
     display: flex;
     gap: 15px;
-    padding-right: 15px;
+   
 }
 
 input {
@@ -107,6 +107,8 @@ button:hover {
 #qr img {
     align-self: center;
     width: 280px;
+    height: 280px;
+    margin: 5px;
 
 
 }
@@ -116,7 +118,7 @@ button:hover {
         width: 80%;
         height: 80px;
 
-        padding: 15px 0px 15px 10px;
+        padding: 15px 5px 15px 10px;
 
 
         display: flex;
