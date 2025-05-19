@@ -97,18 +97,17 @@ button:hover {
     height: 300px;
 
     border: #03375c solid 3px;
-    display: flex;
-    justify-content: center;
+    
     margin: 20px;
     /* align-content: center;
     justify-items: center; */
 }
 
 #qr img {
-    align-self: center;
+    
     width: 280px;
     height: 280px;
-    margin: 5px;
+    margin: 10px;
 
 
 }
