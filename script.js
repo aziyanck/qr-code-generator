@@ -26,12 +26,14 @@ document.addEventListener("DOMContentLoaded", function () {
 const downloadBtn = document.querySelector(".download");
 if (downloadBtn) {
   downloadBtn.addEventListener("click", function () {
-    const img = qr.querySelector("img");
-    if (img) {
+    const canvas = document.querySelector("#qr canvas");
+    if (canvas) {
       const a = document.createElement("a");
-      a.href = img.src;
+      a.href = canvas.toDataURL("image/png");
       a.download = "qr-code.png";
       a.click();
+    } else {
+      alert("QR code not available for download.");
     }
   });
 }
